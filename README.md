@@ -36,3 +36,9 @@ A proposta é demonstrar a integração entre uma aplicação web e canais de co
 - Experiência do usuário (UX) voltada para conversão  
 - Estruturação de projeto fullstack  
 - Organização e versionamento com Git  
+
+---
+
+### 🌐 Domínio no vercel
+
+- [Veja aqui - Link vercel](desafio-01-ass-xtech-cqz7hkzco-diogo-alves-projects-e2838b01.vercel.app)
