@@ -4,9 +4,7 @@ const estados = {};
 
 const client = new Client({
     puppeteer: {
-        executablePath: await chromium.executablePath(),
-        args: chromium.args,
-        headless: chromium.headless
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
 
