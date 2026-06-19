@@ -3,8 +3,8 @@ const qrcode = require('qrcode-terminal');
 const estados = {};
 
 const client = new Client({
-    puppeteer: {
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    puppeteer:{
+        executablePath: "/usr/bin/chromium"
     }
 });
 
