@@ -3,8 +3,10 @@ const qrcode = require('qrcode-terminal');
 const estados = {};
 
 const client = new Client({
-    puppeteer:{
-        executablePath: "/usr/bin/chromium"
+    puppeteer: {
+        executablePath: await chromium.executablePath(),
+        args: chromium.args,
+        headless: chromium.headless
     }
 });
 
